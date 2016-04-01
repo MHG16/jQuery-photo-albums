@@ -1,0 +1,29 @@
+{
+  "name": "jquery-photo-albums",
+  "version": "1.0.0",
+  "description": "a simple single-page application that lets us view photos grouped by album.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MHG16/jQuery-photo-albums.git"
+  },
+  "keywords": [
+    "photo",
+    "album",
+    "jQuery",
+    "html",
+    "css"
+  ],
+  "author": "Martin Grossmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MHG16/jQuery-photo-albums/issues"
+  },
+  "homepage": "https://github.com/MHG16/jQuery-photo-albums#readme",
+  "dependencies": {
+    "jquery": "^2.2.2"
+  }
+}
