@@ -2,7 +2,7 @@ body {
   background-color: #CEB295; }
 
 .listview header {
-  background-color: #3059FC; }
+  background-color: #045591; }
   .listview header h1 {
     font-size: 3em;
     text-align: center;
@@ -10,7 +10,8 @@ body {
 .listview .albums .albumholder {
   background-color: #FFFFFF;
   width: 16em;
-  padding-bottom: 2em; }
+  padding-bottom: 2em;
+  margin: 2em; }
   .listview .albums .albumholder img {
     width: 16em; }
     .listview .albums .albumholder img .label a {
