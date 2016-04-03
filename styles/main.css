@@ -11,7 +11,8 @@ body {
   background-color: #FFFFFF;
   width: 16em;
   padding-bottom: 2em;
-  margin: 2em; }
+  margin: 2em;
+  float: left; }
   .listview .albums .albumholder img {
     width: 16em; }
     .listview .albums .albumholder img .label a {
