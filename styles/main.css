@@ -10,13 +10,19 @@ body {
 .listview .albums .albumholder {
   background-color: #FFFFFF;
   width: 16em;
+  height: 16em;
+  overflow: hidden;
+  border: 1px solid #000000;
   padding-bottom: 2em;
-  margin: 2em;
+  margin: 0 auto;
   float: left; }
   .listview .albums .albumholder img {
-    width: 16em; }
-    .listview .albums .albumholder img .label a {
-      font-size: 2em; }
+    width: 100%;
+    height: auto; }
+  .listview .albums .albumholder .label a {
+    font-size: 1.25em;
+    text-decoration: none;
+    color: #000000; }
 
 .albumselector {
   float: left;
@@ -34,11 +40,15 @@ body {
   .albumview .album1 .photoholder {
     background-color: #FFFFFF;
     width: 16em;
+    height: 16em;
+    overflow: hidden;
+    border: 1px solid #000000;
     padding-bottom: 2em;
     margin: 2em;
     float: left; }
     .albumview .album1 .photoholder img {
-      width: 16em; }
+      width: 100%;
+      height: auto; }
       .albumview .album1 .photoholder img .label a {
         font-size: 2em; }
 

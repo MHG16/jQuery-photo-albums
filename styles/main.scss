@@ -19,27 +19,30 @@ body {
 
 		.albumholder {
 		background-color: #FFFFFF; 
-		width: 16em;  
+		width: 16em; 
+		height: 16em;   
+		overflow:hidden; 
+		border: 1px solid #000000;
 		padding-bottom: 2em;  
-		margin: 2em;  
+		margin: 0 auto;     
 		float: left;
 			img {
+				width: 100%;
+				height: auto;    
+			}
 
-				width: 16em;  
-
-
-			.label {
-
-			
+			.label { 
 
 				a {
-					font-size: 2em; 
+					font-size: 1.25em; 
+					text-decoration: none;  
+					color: #000000;
 
 
 				} 
 			}	
 
-			}
+			
 		}
 	}	
 }
@@ -71,15 +74,17 @@ body {
 
 		.photoholder {
 			background-color: #FFFFFF; 
-			width: 16em;  
+			width: 16em; 
+			height: 16em;   
+			overflow:hidden; 
+			border: 1px solid #000000;  
 			padding-bottom: 2em;  
 			margin: 2em;  
 			float: left;
 			
 			img {
-
-				width: 16em;  
-
+				width: 100%;
+				height: auto;  
 
 			.label {
 
