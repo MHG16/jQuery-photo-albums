@@ -1,8 +1,12 @@
-.listview {
+body {
+	background-color:#CEB295;
+}
 
+.listview {
+	
 
 	header {
-		background-color: #60C2F1;  
+		background-color: #3059FC;  
 
 		h1 {
 			font-size: 3em;  
@@ -14,15 +18,19 @@
 	.albums {
 
 		.albumholder {
-		color: #FFFFFF; 
-		
+		background-color: #FFFFFF; 
+		width: 16em;  
+		padding-bottom: 2em;  
 			img {
 
 				width: 16em;  
 
 
-			label {
-				font-size: 1.25em;  
+			.label {
+
+				a {
+					font-size: 2em; 
+				} 
 			}	
 
 			}
