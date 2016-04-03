@@ -18,15 +18,20 @@ body {
     .listview .albums .albumholder img .label a {
       font-size: 2em; }
 
-.albumview .album1 .photoholder {
-  background-color: #FFFFFF;
-  width: 16em;
-  padding-bottom: 2em;
-  margin: 2em;
+.albumselector button {
+  display: block; }
+
+.albumview {
   float: left; }
-  .albumview .album1 .photoholder img {
-    width: 16em; }
-    .albumview .album1 .photoholder img .label a {
-      font-size: 2em; }
+  .albumview .album1 .photoholder {
+    background-color: #FFFFFF;
+    width: 16em;
+    padding-bottom: 2em;
+    margin: 2em;
+    float: left; }
+    .albumview .album1 .photoholder img {
+      width: 16em; }
+      .albumview .album1 .photoholder img .label a {
+        font-size: 2em; }
 
 /*# sourceMappingURL=main.css.map */
