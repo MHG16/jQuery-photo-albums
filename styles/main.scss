@@ -46,9 +46,12 @@ body {
 
 
 .albumselector {
-
+	float: left;  
+	background-color: #045591;
 	button {
 		display: block;  
+		margin: 1em; 
+		font-size: 1.5em;  
 	}
 }
 
@@ -56,6 +59,13 @@ body {
 .albumview {
 	float: left;  
 	
+	header { 
+
+		h1 {
+			font-size: 3em;  
+			text-align: center;   
+		}
+	}	
 
 	.album1 {
 
