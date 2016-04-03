@@ -42,4 +42,11 @@ body {
       .albumview .album1 .photoholder img .label a {
         font-size: 2em; }
 
+.photoview button {
+  font-size: 1.25em; }
+.photoview header h1 {
+  text-align: center; }
+.photoview .picholder {
+  margin: 0 auto; }
+
 /*# sourceMappingURL=main.css.map */
