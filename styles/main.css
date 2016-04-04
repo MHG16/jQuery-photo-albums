@@ -7,22 +7,24 @@ body {
     font-size: 3em;
     text-align: center;
     padding: 0.5em 0; }
-.listview .albums .albumholder {
-  background-color: #FFFFFF;
-  width: 16em;
-  height: 14em;
-  overflow: hidden;
-  border: 1px solid #000000;
-  padding-bottom: 2em;
-  margin: 0 auto;
-  float: left; }
-  .listview .albums .albumholder img {
-    width: 100%;
-    height: auto; }
-  .listview .albums .albumholder .label a {
-    font-size: 1.25em;
-    text-decoration: none;
-    color: #000000; }
+.listview .albums {
+  margin: 0 auto; }
+  .listview .albums .albumholder {
+    background-color: #FFFFFF;
+    width: 16em;
+    height: 14em;
+    overflow: hidden;
+    border: 1px solid #000000;
+    padding-bottom: 2em;
+    margin: 1em;
+    float: left; }
+    .listview .albums .albumholder img {
+      width: 100%;
+      height: auto; }
+    .listview .albums .albumholder .label a {
+      font-size: 1.25em;
+      text-decoration: none;
+      color: #000000; }
 
 .albumselector {
   float: left;

@@ -14,24 +14,15 @@ $(window).load(function() {
 
 });
 
-$('a').on('click', function(e) {
+//I want to use a variable here so that the appropriate album page whill load when clicked on.  
+//I have heard that data attributes will work, I dont understand how.  
 
+$('a').on('click', function(e) {
 
 	$('.listview').hide();
 	$('.albumview').show();
 
 })
-
-//This is example from this week, Nav Bar
-// $('.links a').click(function(e) {
-// 	e.preventDefault();
-// 	console.dir(e.target);
-// 	$('.links a').css({'background-color': 'transparent'});
-// 	$(e.target).css({'background-color': 'white'});
-		
-// })
-
-
 
 
 /* User is shown the album view.  When click on a album button, that button highlights and user is taken
