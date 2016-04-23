@@ -8,21 +8,21 @@
 
 //first hide the other sections when page loads
 
-$(window).load(function() {
-  	$('.albumview').hide();
-	$('.photoview').hide();  
+// $(window).load(function() {
+//   	$('.albumview').hide();
+// 	$('.photoview').hide();  
 
-});
+// });
 
-//I want to use a variable here so that the appropriate album page whill load when clicked on.  
-//I have heard that data attributes will work, I dont understand how.  
+// //I want to use a variable here so that the appropriate album page whill load when clicked on.  
+// //I have heard that data attributes will work, I dont understand how.  
 
-$('a').on('click', function(e) {
+// $('a').on('click', function(e) {
 
-	$('.listview').hide();
-	$('.albumview').show();
+// 	$('.listview').hide();
+// 	$('.albumview').show();
 
-})
+// })
 
 
 /* User is shown the album view.  When click on a album button, that button highlights and user is taken

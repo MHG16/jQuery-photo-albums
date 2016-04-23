@@ -8,6 +8,7 @@ body {
     text-align: center;
     padding: 0.5em 0; }
 .listview .albums {
+  width: 58em;
   margin: 0 auto; }
   .listview .albums .albumholder {
     background-color: #FFFFFF;
@@ -16,7 +17,8 @@ body {
     overflow: hidden;
     border: 1px solid #000000;
     padding-bottom: 2em;
-    margin-left: 4em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
     margin-top: 2em;
     float: left; }
     .listview .albums .albumholder img {
@@ -57,13 +59,21 @@ body {
       width: 100%;
       height: auto; }
       .albumview .album1 .photoholder img .label a {
-        font-size: 2em; }
+        font-size: 2em;
+        text-decoration: none;
+        width: 8em;
+        margin: 0 auto; }
 
 .photoview button {
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  clear: left;
+  float: left; }
 .photoview header h1 {
-  text-align: center; }
+  text-align: center;
+  float: left; }
 .photoview .picholder {
-  margin: 0 auto; }
+  width: 30em;
+  margin: 0 auto;
+  float: left; }
 
 /*# sourceMappingURL=main.css.map */
