@@ -25,7 +25,8 @@ body {
 		overflow:hidden; 
 		border: 1px solid #000000;
 		padding-bottom: 2em;  
-		margin: 1em;    
+		margin-left: 4em;    
+		margin-top: 2em;    
 		float: left;
 			img {
 				width: 100%;
@@ -33,7 +34,8 @@ body {
 			}
 
 			.label { 
-
+				width: 5em;
+				margin: 2em auto;   
 				a {
 					font-size: 1.25em; 
 					text-decoration: none;  
