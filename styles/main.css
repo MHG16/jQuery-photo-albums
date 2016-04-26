@@ -58,7 +58,7 @@ body {
     .albumview .album1 .photoholder img {
       width: 100%;
       height: auto; }
-      .albumview .album1 .photoholder img .label a {
+      .albumview .album1 .photoholder img .label {
         font-size: 2em;
         text-decoration: none;
         width: 8em;
@@ -68,14 +68,16 @@ body {
   font-size: 1.25em;
   clear: left;
   display: inline-block;
+  margin-left: 1em;
   float: left;
   border-radius: .3em; }
 .photoview .header {
   text-align: center;
+  width: 30em;
   float: left;
-  margin: 0; }
+  margin: 0 auto; }
 .photoview .picholder img {
-  width: 45em;
+  width: 50em;
   margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */

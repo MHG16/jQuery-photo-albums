@@ -93,15 +93,11 @@ body {
 				height: auto;  
 
 			.label {
-
-				a {
+				
 					font-size: 2em; 
 					text-decoration: none;
 					width: 8em;  
 					margin: 0 auto;  
-
-
-				} 
 			}	
 
 			}
@@ -115,6 +111,7 @@ body {
 		font-size: 1.25em;
 		clear:left;  
 		display:inline-block; 
+		margin-left: 1em;  
 		float:left;  
 		border-radius: .3em;  
 	}
@@ -122,13 +119,13 @@ body {
 	.header {
 		
 		 	text-align: center;  	
-		 	//display:inline-block; 
+		 	width: 30em;  
 		 	float:left;  	
-		 	margin:0;  
+		 	margin:0 auto;    
 	}
 	.picholder {
 		img {
-			width: 45em;  
+			width: 50em;  
 			margin: 0 auto;  
 
 		}
