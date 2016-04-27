@@ -12,25 +12,28 @@
 
 var albums = [
 	{
-    title: 'cool cats',
-    photos: [
-      {
-        title: 'cat in a box',
-        url: 'http://catinabox.com'
-      } 
+	    title: 'Chicago',
+	    photos: 
+	    [
+	      {
+	        title: 'cat in a box',
+	        url: './images/Chicago/Chicago1.jpeg'
+	      },
 
-     ]
-  	},
+	      {
+	      	title: '',
+	      	url: './images/Chicago/Chicago2.jpeg'
 
-  	{
-    title: 'chicago'
-    photos: [
+	      },
 
+	      {
+	      	title: '',
+	      	url: '.images/Chicago/Chicago3.jpeg'
+	      }
 
-    ]
-  	},
-
-
+	    ]  
+    
+    }	
 ]
 
 
@@ -53,17 +56,10 @@ function renderAlbum (albumNumber) {
     return '<div class="photoholder"><img src="'+ photo.url +'"><div class="label"><a href="#">Photo '+ i + '</a></div>'
   }));
 
-$('body').html(element);
-registerPhotoLabelClick();
+	$('body').html(element);
+	registerPhotoLabelClick();
 
-
-
-						
-
-
-
-
-}
+};
 
 
 
