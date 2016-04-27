@@ -48,8 +48,8 @@ $('albumSelector button').on('click', function(e){
 //renders the Album, based on the album number.
 //puts the html on the page with the data for that album
 function renderAlbum (albumNumber) {
-	var thisAlbum = albums[albumNumber];
-	var element = var element = $('<section/>')
+	let thisAlbum = albums[albumNumber];
+	let element = $('<section/>')
   		.addClass('album')
   		.append('<header><h1>' + thisAlbum.title + '</h1></header>')
   		.append(thisAlbum.photos.map(function(photo, i) {
@@ -57,7 +57,7 @@ function renderAlbum (albumNumber) {
   }));
 
 	$('body').html(element);
-	registerPhotoLabelClick();
+	//registerPhotoLabelClick();
 
 };
 
