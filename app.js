@@ -6,6 +6,8 @@
 * 3. Create a function to run when that event happens
 */
 
+
+
 //first hide the other sections when page loads
 
 // $(window).load(function() {
@@ -16,6 +18,12 @@
 
 // //I want to use a variable here so that the appropriate album page whill load when clicked on.  
 // //I have heard that data attributes will work, I dont understand how.  
+
+//**Maybe use jQuery .toggle() function to toggle album buttons.  First turn all buttons off and 
+//then highlight only one that was clicked.  Clicked one should show correct album.  
+
+
+
 
 // $('a').on('click', function(e) {
 
